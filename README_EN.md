@@ -6,5 +6,5 @@ The primary document is [README.md](README.md). Sources were verified through **
 
 Highlights include 2026 work from ICLR, ICML, COLM, EACL, Nature, Anthropic, OpenAI, Google DeepMind, Stanford HAI, Microsoft Research, Google Research, and METR.
 
-Text is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+This repository is licensed under the [MIT License](LICENSE).
 
