@@ -179,5 +179,5 @@ RSI 指 AI 系统利用自身当前能力，持续改进模型权重、训练数
 - 机构内部数据、产品博客与技术报告用于描述现实部署和趋势，不能替代独立同行评审或复现。
 - 欢迎通过 Issue/PR 补充正式发表状态、复现实验、反例和失败报告。
 
-本资料正文采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
+本仓库采用 [MIT License](LICENSE)。
 
