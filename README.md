@@ -1,10 +1,7 @@
-# Recursive Self-Improvement（RSI，递归自我改进）研究图谱
-
-> 资料状态：截至 **2026-11-22**。本文优先链接论文正式页面、会议论文库、机构研究页和官方仓库；预印本会明确标注，不把项目宣传等同于同行评审结论。
+# Recursive Self-Improvement
 
 RSI 指 AI 系统利用自身当前能力，持续改进模型权重、训练数据、算法、提示词、上下文、工具、记忆、Agent Harness 或研究流程，使下一轮系统拥有更强的问题求解能力，或更强的“继续改进自身”的能力。
 
-这里最容易混淆的是：**结果变好**、**系统可持续学习**、**改进器本身也变强**，并不是同一件事。
 
 ## 一、建议采用的分层定义
 
@@ -18,7 +15,7 @@ RSI 指 AI 系统利用自身当前能力，持续改进模型权重、训练数
 | L5 递归改进 | 任务 Agent 与改进机制本身 | 是 | 是 | DGM、Hyperagents、AIDE² | 初步实证、仍受目标/评估/算力边界约束 |
 | L6 强 RSI | 自主设定研究方向、重写底层系统、持续训练后继系统 | 是 | 是，且长期开放式加速 | 理论设想 | **尚无公开证据证明已经实现** |
 
-因此，更稳妥的表述是：2026 年已经出现了不少 **persistent self-improvement**、**automated AI R&D** 和 **bounded recursive improvement** 的系统；但尚不能据此断言已经实现无边界、无人工目标设定的“智能爆炸式”强 RSI。
+
 
 ## 二、2026 年最值得补入的机构文章与新论文
 
@@ -114,7 +111,7 @@ RSI 指 AI 系统利用自身当前能力，持续改进模型权重、训练数
 - **噪声、任务顺序与欠规范**：[On the Fragility of Self-Improving Agents](https://arxiv.org/abs/2608.18066)（2026 预印本）指出，自我改进收益可能对任务顺序和随机性高度敏感。
 - **Benchmark 污染与 poisoned evaluator**：[Reflections on Trusting Trust, Revisited](https://arxiv.org/abs/2609.17817)（2026 预印本）研究了用有毒 Benchmark 污染自修改 Coding Agent 的可能性。
 
-可靠的 RSI 评价至少应包含：冻结的隐藏测试集、多随机种子、等算力对照、独立 evaluator、改进成本、跨任务迁移、灾难性退化、reward hacking 审计，以及“改进器是否真的变强”的单独测量。
+
 
 ## 五、Agent Software 层
 
