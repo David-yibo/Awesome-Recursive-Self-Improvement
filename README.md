@@ -1,4 +1,4 @@
-# Recursive Self-Improvement
+# Recursive Self Improvement Research Map
 
 [English](README.md) | [简体中文](README_ZH.md)
 
