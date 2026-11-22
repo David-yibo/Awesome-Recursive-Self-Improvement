@@ -62,7 +62,7 @@ Recursive self-improvement (RSI) refers to AI systems using their current capabi
 - **[Reimagining research papers as interactive and reliable AI agents](https://www.nature.com/articles/s41586-026-11044-y)** (Paper2Agent, Nature 2026): Packages papers together with their code, data, and methods as interactive agents, reducing the cost of reusing research results.
 - **Google DeepMind — [AlphaEvolve: impact across fields](https://deepmind.google/blog/alphaevolve-impact/)** (2026): Reports follow-on applications of AlphaEvolve in genomics, disaster risk, and computing infrastructure. Its core remains evolutionary search combining LLM-generated candidate programs with automated evaluators.
 
-## 3. Foundation Model Layer
+## 3. Foundation Model 
 
 ### 3.1 Architecture Search and Model Structure
 
@@ -110,7 +110,7 @@ The core of this direction is not merely automatic hyperparameter tuning, but al
 - **Noise, task order, and underspecification:** [On the Fragility of Self-Improving Agents](https://arxiv.org/abs/2608.18066) (2026 preprint) finds that gains from self-improvement may be highly sensitive to task order and randomness.
 - **Benchmark contamination and poisoned evaluators:** [Reflections on Trusting Trust, Revisited](https://arxiv.org/abs/2609.17817) (2026 preprint) studies the possibility of contaminating self-modifying coding agents through poisoned benchmarks.
 
-## 5. Agent Software Layer
+## 5. Agent Software
 
 ### 5.1 Tools and Skills
 
